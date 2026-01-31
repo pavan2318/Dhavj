@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dhavj – Level 3</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Level 3</h1>
+  <p>You are too late.</p>
+
+  <input type="text" id="flag" placeholder="submit flag">
+  <button onclick="submitFlag(3)">Submit</button>
+
+  <p id="msg"></p>
+</div>
+
+<script>
+  const flag = "dhavj{e7f4c8a2b1d9}";
+  setTimeout(() => {
+    document.body.innerHTML = "<p style='text-align:center'>redirecting...</p>";
+  }, 600);
+</script>
+
+<script src="js/core.js"></script>
+</body>
+</html>
